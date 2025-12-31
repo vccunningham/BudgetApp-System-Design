@@ -7,13 +7,13 @@ This project is a multi-repo personal finance engine designed to bridge the gap 
 
 The system is split into two specialized repositories to ensure scalability and clean separation of concerns:
 
-### 1. [Private] BudgetApp-API (Backend)
+### 1. [Private] BudgetingApp (Backend)
 * **Core:** .NET 8 Web API
 * **Data Layer:** Entity Framework Core with SQL Server
 * **Patterns:** Repository Pattern, Dependency Injection, and custom LINQ extensions for financial data flattening.
 * **Security:** JWT Authentication and Role-Based Access Control.
 
-### 2. [Private] BudgetApp-UI (Frontend)
+### 2. [Private] BudgetingAppUI (Frontend)
 * **Core:** Angular 18 & TypeScript
 * **State Management:** RxJS for real-time balance updates.
 * **Styling:** Tailwind CSS for a responsive, mobile-first design.
