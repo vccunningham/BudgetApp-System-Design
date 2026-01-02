@@ -21,3 +21,9 @@ The system is split into two specialized repositories to ensure scalability and 
 
 ## 🔄 Integration Logic
 The UI communicates with the API via a RESTful interface. I utilized **Docker** to containerize the local development environment, ensuring the SQL database, API, and Angular frontend work in sync regardless of the host machine.
+
+## 📅 Project Status & Roadmap
+- [x] Core API Architecture (.NET 8)
+- [x] Database Schema Design (SQL Server)
+- [ ] Currently Working: Angular 18 Signal implementation for real-time balance updates.
+- [ ] Future: Azure DevOps CI/CD Pipeline setup.
